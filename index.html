@@ -14,9 +14,20 @@
     <h2 class="text-center text-secondary m-4">Book Archive API</h2>
     <!-- search area -->
     <div class="input-group mb-3 w-50 mx-auto">
-        <input id="input-field" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
-            aria-describedby="button-addon2">
-        <button class="btn btn-outline-secondary" type="button" id="button-search" onclick="searchBook()">Button</button>
+        <input id="input-field" type="text" class="form-control" placeholder="Search Book"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="button-search"
+            onclick="searchBook()">Search</button>
+    </div>
+
+    <!-- Number of search result -->
+    <div class="">
+        <p id="number-of-search-result"></p>
+    </div>
+
+    <!-- search result -->
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="books">
+        
     </div>
 
 
